@@ -1,0 +1,119 @@
+/* .watermelon {
+  color: blue;
+}
+
+#banana {
+  font-size: 100px;
+  color: orange;
+} */
+
+section {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(255, 194, 144)
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ff8560;
+  margin-bottom: 0;
+}
+}
+.survey {
+  text-align: left;
+  padding: 20px;
+}
+body, html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  /* margin: 0 20px 0 0; */
+  margin-right: 20px;
+} 
+nav a {
+  color: black;
+  text-decoration: none;
+}
+.homePizza {
+  background-color:  rgb(255, 194, 144);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePizza img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 20px;
+  border: 4px solid white;
+  /*you can do border-radius fir a more circular look of the frame*/
+}
+
+.homePizza img:hover{
+  box-shadow: 0 0 4px 4px #01090ed8 
+}
+
+iframe {
+  border: 10px solid  rgb(255, 194, 144);
+  margin: 20px;
+}
+
+h1:hover {
+  letter-spacing: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(255, 194, 144);
+  bottom: 0;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.donate {
+  font-size: 48px;
+}
+#cool {
+  text-transform: uppercase;
+  color:salmon;
+}
+
+#clicker {
+  display: block;
+  margin: 30px auto;
+  border: none;
+  background-color : gold;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 16px 45px 16px 45px;
+}
+
+#colorChanger {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: lightsalmon;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  padding: 16px 45px;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
